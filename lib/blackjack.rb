@@ -37,11 +37,16 @@ def initial_round
   # code #initial_round here
 end
 
-def hit?
+def hit?(card_total)
   prompt_user
-  input = gets.chomp
-  input
-  # code hit? here
+  answer = get_user_input
+  if answer == "h"
+    card_total += deal_card
+  elsif answer =="s"
+  else
+    invalid_command
+    prompt_user
+    
 end
 
 def invalid_command
