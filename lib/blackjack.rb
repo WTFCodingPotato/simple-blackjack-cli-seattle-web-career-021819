@@ -3,7 +3,7 @@ def welcome
 end
 
 def deal_card
-  return 1 + rand(11)
+  1 + rand(11)
   # code #deal_card here
 end
 
