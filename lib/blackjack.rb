@@ -38,6 +38,9 @@ def initial_round
 end
 
 def hit?
+  prompt_user
+  input = gets.chomp
+  input
   # code hit? here
 end
 
